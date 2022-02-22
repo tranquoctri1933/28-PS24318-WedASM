@@ -1,0 +1,180 @@
+body{
+    background-color: #030424;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    width: 1481px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #5B5AA7;
+}
+.anh1{
+    position: absolute;
+    width: 98px;
+    height: 97px;
+    left: 43px;
+    top: 5px;    
+}
+.head{
+    position: relative;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 40px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    height: 60px;
+}
+.menu>ul>li>a:hover{
+    color: aqua;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 60px;
+    color: #5B5AA7;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 10px;
+    text-align: left;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a:hover{
+    background-color: #5B5AA7;
+    color: white;
+    z-index: 1;
+}
+.head input{
+    position: absolute;
+    padding-left: 10px;
+    width: 425px;
+    height: 63px;
+    left: 796px;
+    top: 20px;
+    background: #ffffff;
+    border-radius: 40px;
+}
+.head input::placeholder{
+    position: absolute;
+    top: 23px;
+    left: 20px;  
+}
+.search img{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 1180px;
+    top: 38px;
+}
+.anh2{
+    position: absolute;
+    width: 68px;
+    height: 70px;
+    left: 1253px;
+    top: 16px;
+}
+.anh3{
+    position: absolute;
+    width: 68px;
+    height: 70px;
+    left: 1345px;
+    top: 15px;
+}
+hr{
+    position: relative;
+    top: 35px;
+}
+.login{
+    margin: 100px;
+    margin-left: 500px;
+    position: relative;
+    border: 5px solid black;
+    background-color: #5B5AA7;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.login .tk{
+    width: 80%;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 65px;
+    padding: 8px;
+    font-size: 14px;
+    outline-color: #5B5AA7;
+}
+.login .mk{
+    width: 80%;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 14px;
+    outline-color: #5B5AA7;
+}
+.login h2{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+.dangnhap{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.nut-dangnhap{
+    width: 88%;
+    padding: 10px;
+    font-size: 19px;
+    margin:  12px 0;
+    color: #fff;
+    background-color: #0b129b;
+    opacity: 0.9;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.nut-dangnhap:hover{
+    opacity: 1;
+}
+.ket{
+    font-size: 16px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    text-align: center;
+}
+.ket a{
+    text-decoration: none;
+    color: #0b129b;
+}
+label{
+    margin-left: 50px;
+}

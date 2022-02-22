@@ -1,0 +1,123 @@
+.footer-img{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.container>footer{
+    position: relative;
+    padding-left: 0px;
+    width: 1482px;
+    height: 215px;
+    left: 0px;
+    top: 0px;
+    background: #5B5AA7;
+    clear: both;
+}
+.container>footer .gioithieu{
+    position: absolute;
+    left: 240px;
+    top: 30px;
+    bottom: 40px;
+    list-style-type: none;
+}
+.container>footer .gioithieu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #1a1a1d;
+}
+.container>footer .gioithieu a:hover{
+    color: rgb(197, 0, 35);
+}
+.container>footer .gioithieu li{
+    margin-bottom: 8px;
+}
+.footer-thanhthoan{
+    width: 10%;
+    position: absolute;
+    top: 28px;
+    left: 500px;
+}
+.thanhtoan {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -5px;
+}
+.ketnoi{
+    position: absolute;
+    top: 31px;
+    left: 780px;
+}
+.icon a{
+    text-decoration: none;
+    color: #1a1a1d;
+    font-size: 14px;
+    font-weight: 200px;
+    line-height: 10px;
+}
+.anh16{
+    position: absolute;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    right: 50px;
+}
+.anh17{
+    position: absolute;
+    top: 20px;
+    width: 16px;
+    right: 50px;
+}
+.anh18{
+    position: absolute;
+    top: 30px;
+    width: 16px;
+    right: 50px;
+}
+.ketnoi li{
+    font-size: 20px;
+    text-decoration: none;
+    color: #1a1a1d;
+}
+.gopy{
+    position: absolute;
+    top: 32px;
+    right: 250px;
+}
+.gopy .ph{
+    position: absolute;
+    left: 5px;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #0f0f1f;
+    background-color: rgba(158, 153, 153, 0.87);
+    font-size: 14px;
+    border-radius: 10px;
+}
+.gopy input{
+    padding-left: 10px;
+}
+.gopy input::placeholder{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: larger;
+}
+.phanhoi{
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    width: 60px;
+    color: #fff;
+    background-color: #201753;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 6px;
+    cursor: pointer;
+}
+.phanhoi:hover{
+    box-shadow: 0 0 5px #5B5AA7;
+}
